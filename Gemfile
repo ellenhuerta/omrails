@@ -6,6 +6,8 @@ gem 'devise'
 gem 'simple_form'
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :production do
 	gem 'pg'
